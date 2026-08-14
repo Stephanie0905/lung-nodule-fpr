@@ -1,0 +1,30 @@
+# Medical imaging data
+data/raw/
+data/interim/
+data/processed/
+*.dcm
+*.nii
+*.nii.gz
+
+# Trained models and large outputs
+models/
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Python files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
