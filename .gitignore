@@ -28,3 +28,20 @@ venv/
 # Operating-system files
 .DS_Store
 Thumbs.db
+
+# Local datasets
+/data/
+
+# Credentials
+kaggle.json
+.env
+.env.*
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
